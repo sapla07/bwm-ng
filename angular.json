@@ -20,6 +20,7 @@
               "src/assets",
               "src/favicon.ico"
             ],
+        
             "styles": [
               "src/styles.scss",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -129,7 +130,7 @@
   "defaultProject": "angular-starter",
   "schematics": {
     "@schematics/angular:component": {
-      "prefix": "app",
+      "prefix": "bwm",
       "styleext": "scss"
     },
     "@schematics/angular:directive": {
