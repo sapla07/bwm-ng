@@ -51,7 +51,7 @@
               <label for="image">Image</label>
               <input type="file"
                      name="image"
-                     class="form-control"
+                     class="form-control form-image"
                      id="image"
                      placeholder="Upload file..."
                      (change)="handleImageChange()">
@@ -97,7 +97,7 @@
             <div class="form-group">
               <label for="shared">Shared</label>
               <input type="checkbox"
-                     class="form-control"
+                     class="form-control form-checkbox"
                      id="shared"
                      name="shared"
                      [(ngModel)]="newRental.shared"
