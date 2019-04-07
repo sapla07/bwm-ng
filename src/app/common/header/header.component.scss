@@ -32,6 +32,17 @@
         color: $main-color !important;
         box-shadow: none;
     }
- }
+}
+
+.dropdown-item{
+    font-size: 14px;
+ 
+    &:hover, &:active, &:focus{
+        background-color: $main-color;
+    }
+
+}
+
+
 
 }
