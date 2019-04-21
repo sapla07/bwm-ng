@@ -6,11 +6,12 @@ import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RentalModule } from './rental/rental.module';
 import { AuthModule } from './auth/auth.module';
-
+import { ManageModule } from './manage/manage.module'
 
 import { AppComponent } from './app.component';
 import { headerComponent } from './common/header/header.component';
 import { RentalComponent } from './rental/rental.component';
+
 
 
 const routes : Routes = [
@@ -22,7 +23,7 @@ const routes : Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    headerComponent, 
+    headerComponent,
   ],
   imports: [
     RouterModule.forRoot(routes),
@@ -31,7 +32,8 @@ const routes : Routes = [
     AuthModule,
     NgbModule.forRoot(),
     ToastrModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ManageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
